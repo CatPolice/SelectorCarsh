@@ -62,7 +62,7 @@ const char *CUSTOM_PROPERTY = "CUSTOM_PROPERTY";
 void dynamicMethod(id self,SEL _cmd , NSString *str){
     NSString *name = NSStringFromClass([self class]);
     NSString *errorName = objc_getAssociatedObject(self, CUSTOM_PROPERTY);
-    NSLog(@"%@-----%@", name , errorName);
+    NSLog(@"%@%@里%@%@",@"⚠️：  ", name , errorName,@"方法未实现");
 }
 
 

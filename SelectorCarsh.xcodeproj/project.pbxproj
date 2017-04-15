@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		866CF4E21EA22F6F0034DA90 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CF4E11EA22F6F0034DA90 /* AViewController.m */; };
 		B855AD2F1E9F6C91000B037C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B855AD2E1E9F6C91000B037C /* main.m */; };
 		B855AD321E9F6C91000B037C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B855AD311E9F6C91000B037C /* AppDelegate.m */; };
 		B855AD351E9F6C91000B037C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B855AD341E9F6C91000B037C /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		866CF4E01EA22F6F0034DA90 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		866CF4E11EA22F6F0034DA90 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		B855AD2A1E9F6C91000B037C /* SelectorCarsh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectorCarsh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B855AD2E1E9F6C91000B037C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B855AD301E9F6C91000B037C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 				B855AD311E9F6C91000B037C /* AppDelegate.m */,
 				B855AD331E9F6C91000B037C /* ViewController.h */,
 				B855AD341E9F6C91000B037C /* ViewController.m */,
+				866CF4E01EA22F6F0034DA90 /* AViewController.h */,
+				866CF4E11EA22F6F0034DA90 /* AViewController.m */,
 				B855AD361E9F6C91000B037C /* Main.storyboard */,
 				B855AD391E9F6C91000B037C /* Assets.xcassets */,
 				B855AD3B1E9F6C91000B037C /* LaunchScreen.storyboard */,
@@ -164,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B855AD471E9F6CBA000B037C /* NSObject+SelectorCarsh.m in Sources */,
+				866CF4E21EA22F6F0034DA90 /* AViewController.m in Sources */,
 				B855AD351E9F6C91000B037C /* ViewController.m in Sources */,
 				B855AD321E9F6C91000B037C /* AppDelegate.m in Sources */,
 				B855AD2F1E9F6C91000B037C /* main.m in Sources */,
@@ -321,6 +327,7 @@
 				B855AD431E9F6C91000B037C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
