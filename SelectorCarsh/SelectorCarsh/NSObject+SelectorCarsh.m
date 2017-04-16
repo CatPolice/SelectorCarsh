@@ -15,8 +15,11 @@ const char *CUSTOM_PROPERTY = "CUSTOM_PROPERTY";
 
 
 + (void)load{
-    [self method_chang:[self class] withSEL:@selector(methodSignatureForSelector:) withNewClass:[self class] withNeworiginalSEL:@selector(customMethodSignatureForSelector:)];
-    [self method_chang:[self class] withSEL:@selector(forwardInvocation:) withNewClass:[self class] withNeworiginalSEL:@selector(customForwardInvocation:)];
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [self method_chang:[self class] withSEL:@selector(methodSignatureForSelector:) withNewClass:[self class] withNeworiginalSEL:@selector(customMethodSignatureForSelector:)];
+        [self method_chang:[self class] withSEL:@selector(forwardInvocation:) withNewClass:[self class] withNeworiginalSEL:@selector(customForwardInvocation:)];
+    });
 }
 
 
